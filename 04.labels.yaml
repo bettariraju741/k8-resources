@@ -1,0 +1,11 @@
+kind: Pod
+apiVersion: v1
+metadta:
+  name: lables
+  labels:
+    environment: dev
+    project: expense
+spec:
+  containers:
+  - name: nginx
+    image: nginx-
