@@ -8,4 +8,4 @@ metadta:
 spec:
   containers:
   - name: nginx
-    image: nginx-
+    image: nginx
