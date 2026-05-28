@@ -2,9 +2,10 @@ kind: Pod
 apiVersion: v1
 metadta:
   name: lables
-  labels:
-    environment: dev
-    project: expense
+labels:
+  project: expense
+  module: backend
+  environment: dev
 spec:
   containers:
   - name: nginx
