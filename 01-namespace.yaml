@@ -1,8 +1,9 @@
 apiVersion: v1
-kind: NameSpace
-metada:
+kind: Namespace
+
+metadata:
   name: expense
-  lables:
+  labels:
     project: expense
     environment: test
     createdby: yamlfiles
